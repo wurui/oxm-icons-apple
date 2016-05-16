@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <data>
+        <icon-menu>
+            <i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>laptop</tip>
+                </i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>laptop</tip>
+                </i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>laptop</tip>
+                </i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>laptop</tip>
+                </i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>laptop</tip>
+                </i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>laptop</tip>
+                </i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>laptop</tip>
+                </i>
+            </i>
+            <i>
+                <i>
+                    <icon>//momofox.com/img/fox.jpg</icon>
+                    <title>powerful camera</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                    <tip>screen</tip>
+                </i>
+            </i>
+        </icon-menu>
+    </data>
+
+</root>
