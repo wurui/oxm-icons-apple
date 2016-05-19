@@ -16,7 +16,7 @@ define(['zepto'],function(undef){
       this.count=wrap.find('.icon-page').length;
       //this.play();
 
-       mod.on('swipeLeft swipeRight',function(e){
+       $('body').on('swipeLeft swipeRight',function(e){
         // log(e.type)
         that.go(e.type =='swipeLeft'?1:-1)
       })

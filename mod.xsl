@@ -3,7 +3,7 @@
     <xsl:template match="/root" name="oxm-icons-apple">
     <!-- className 'J_OXMod' required  -->
     <div class="J_OXMod oxmod-oxm-icons-apple" ox-mod="oxm-icons-apple">
-        <div>
+        <div data-on="1">
             <div class="marquee-win">
                 <div class="page-container" style="width:{count(data/icon-menu/i)}00%;">
                 <xsl:for-each select="data/icon-menu/i">
