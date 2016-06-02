@@ -23,7 +23,8 @@
           require.config({
           paths: {
           zepto: '//openxsl.com/js/zepto.min',
-          mustache: '//openxsl.com/js/mustache'
+          mustache: '//openxsl.com/js/mustache',
+          oxm:'//openxsl.com/oxm/'
           }
           });
           require(['zepto','asset/index'],function(undefine,Mod){
