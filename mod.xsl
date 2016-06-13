@@ -10,11 +10,22 @@
                     <div class="icon-page">
                         <xsl:for-each select="i">
                             <a class="icon" target="_blank" href="{href}" >
+                                <xsl:variable name="url">
+                                    <xsl:choose>
+                                        <xsl:when test="starts-with(icon,'#')">//momofox.com/uploads/img/60_<xsl:value-of
+                                                select="substring-after(icon,'#')"/>.jpg</xsl:when>
+                                        <xsl:otherwise><xsl:value-of select="icon"/></xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:variable>
 
-                                <img style="background-image:url({icon});"
+                                <img style="background-image:url({$url});"
                                      src="//momofox.com/uploads/img/a8876120-17db-11e6-b734-95ffd38867b8.png" />
                                 <br/>
                                 <xsl:value-of select="title"/>
+                                <br/>
+                                <!--
+                                test:<xsl:value-of select="starts-with('#ss/12', '#')"/>
+                                -->
                             </a>
                         </xsl:for-each>
                     </div>
