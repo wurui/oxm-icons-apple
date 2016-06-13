@@ -13,7 +13,7 @@
                                 <xsl:variable name="url">
                                     <xsl:choose>
                                         <xsl:when test="starts-with(icon,'#')">//momofox.com/uploads/img/60_<xsl:value-of
-                                                select="substring-after(icon,'#')"/>.jpg</xsl:when>
+                                                select="substring-after(icon,'#')"/></xsl:when>
                                         <xsl:otherwise><xsl:value-of select="icon"/></xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:variable>
