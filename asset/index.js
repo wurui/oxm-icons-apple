@@ -1,4 +1,4 @@
-define(['zepto','oxm/oxmjs-flip/1.0.0/asset/index'],function(undef,Flip){
+define(['zepto','oxm/oxmjs-flip/1.0.1/asset/index'],function(undef,Flip){
   //console.log(typeof Flip)
   var log=function(s){
     var $log=$('#log');
